@@ -36,6 +36,11 @@ This application allows users to:
     * Delete tasks (only by task creators or team admins), regardless of status.
 * **Task Filtering:** Filter tasks by associated team or assigned member.
 * **Responsive UI:** A clean and responsive user interface built with React and Tailwind CSS.
+*#####*
+* **Minor UI Adjustment:** Implemented a subtle hover effect on navigation links.
+*######*
+
+
 
 ## Technologies Used
 
