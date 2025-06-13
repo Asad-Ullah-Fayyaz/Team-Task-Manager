@@ -33,7 +33,7 @@ const pgPool = new Pool({
 // CORS Middleware: Allow requests from your frontend
 // This MUST come BEFORE other middlewares like session or body parser
 app.use(cors({
-  origin: 'http://localhost:5173', // Explicitly allow your frontend's origin
+  origin: 'http://localhost:5174', // Explicitly allow your frontend's origin
   credentials: true, // Allow sending/receiving cookies
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Allowed HTTP methods
   allowedHeaders: ['Content-Type', 'Authorization'], // Allowed headers
