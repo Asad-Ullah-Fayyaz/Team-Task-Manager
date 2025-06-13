@@ -184,12 +184,23 @@ SESSION_SECRET=e8f32e4b9c1d2a3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4 # <--- 
 
 ## Live Demo
 
-The application is deployed and available at:
+Your application's frontend is deployed and running on Netlify!
 
-**Frontend (Render):** [YOUR_RENDER_FRONTEND_URL_HERE]
-**Backend (Render):** [YOUR_RENDER_BACKEND_URL_HERE]
+Login/Sign Up Page: team-task-managment.netlify.app
 
-*(Remember to update the `API_BASE_URL` constant in `client/src/Dashboard.jsx` to point to your deployed backend URL before deploying your frontend, and to replace these placeholders.)*
+Dashboard Page: lustrous-starship-4a5b66.netlify.app
+
+Since only the frontend is deployed on Netlify, you currently won't be able to log in, register, or see tasks. To get the entire project fully working, you'll need to run the backend server locally.
+
+Here's an easy way to do that:
+
+Open your terminal.
+
+Navigate to your server directory: cd C:\Users\butth\OneDrive\Desktop\Team-Task-Manager\server
+
+Start the backend server: node server.js
+
+Once your backend is running locally, your deployed Netlify frontend will be able to connect to it, enabling all the app's features!
 
 ## API Endpoints
 
